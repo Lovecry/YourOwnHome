@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a18b1104469894d9be4af4fed2bb0e, type: 3}
+  m_Name: LevelBehavior
+  m_EditorClassIdentifier: 
+  levels:
+  - listObject:
+    - nameFile: Bathroom
+      numberObject: 2
+      point: 10
+    velocityScroll: 1
+    tempSpawn: 2
+  - listObject:
+    - nameFile: Bathroom
+      numberObject: 2
+      point: 10
+    - nameFile: Gym
+      numberObject: 1
+      point: 20
+    - nameFile: Swing
+      numberObject: 2
+      point: 30
+    velocityScroll: 1
+    tempSpawn: 2
+  - listObject:
+    - nameFile: Dog
+      numberObject: 2
+      point: 10
+    - nameFile: Gym
+      numberObject: 2
+      point: 10
+    velocityScroll: 3
+    tempSpawn: 0.6
+  - listObject:
+    - nameFile: Saloon
+      numberObject: 2
+      point: 80
+    - nameFile: Stacc
+      numberObject: 2
+      point: 40
+    - nameFile: NormalTree
+      numberObject: 3
+      point: 10
+    velocityScroll: 4
+    tempSpawn: 0.4
+  - listObject:
+    - nameFile: Under_Wall
+      numberObject: 2
+      point: 40
+    velocityScroll: 4
+    tempSpawn: 0.35
+  - listObject:
+    - nameFile: Swing
+      numberObject: 1
+      point: 10
+    - nameFile: Room1
+      numberObject: 1
+      point: 10
+    - nameFile: TourEiffel
+      numberObject: 3
+      point: 10
+    - nameFile: Stacc
+      numberObject: 3
+      point: 10
+    velocityScroll: 5
+    tempSpawn: 0.35
+  - listObject:
+    - nameFile: Bathroom
+      numberObject: 1
+      point: 10
+    - nameFile: Tetto
+      numberObject: 1
+      point: 10
+    - nameFile: Gym
+      numberObject: 2
+      point: 10
+    velocityScroll: 5
+    tempSpawn: 0.35
+  - listObject:
+    - nameFile: Bathroom
+      numberObject: 2
+      point: 10
+    velocityScroll: 5
+    tempSpawn: 0.35
+  - listObject:
+    - nameFile: HorrorTree
+      numberObject: 2
+      point: 80
+    - nameFile: Tetto
+      numberObject: 1
+      point: 50
+    velocityScroll: 6
+    tempSpawn: 0.34
+  - listObject:
+    - nameFile: TourEiffel
+      numberObject: 2
+      point: 50
+    - nameFile: HorrorTree
+      numberObject: 2
+      point: 40
+    - nameFile: Under_garage
+      numberObject: 2
+      point: 60
+    - nameFile: Under_laundry
+      numberObject: 2
+      point: 90
+    velocityScroll: 7
+    tempSpawn: 0.32
